@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.input{
+  position: relative;
+  width: 22.4375rem;
+  margin: 4rem auto;
+
+}
+
+.inputSearch{
+  padding-left: 1.6875rem;
+  font-weight: bold;
+  width: 22.4375rem;
+  height: 3.9375rem;
+  border-radius: 2.5rem;
+  border: none;
+  outline: none;
+}
+
+.search{
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  z-index: 5;
+  cursor: pointer;
+}

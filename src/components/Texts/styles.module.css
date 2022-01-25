@@ -1,0 +1,15 @@
+.container{
+  text-align: center;
+}
+
+.title,
+.text {
+  color: #ffffff;
+}
+
+.text{
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  line-height: 1.375rem;
+}

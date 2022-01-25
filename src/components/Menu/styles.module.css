@@ -1,0 +1,14 @@
+.header{
+    height: 10vh;
+    margin-top: 1rem;
+}
+
+.arrow{
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.arrow:hover{
+    transform: scale(1.5);
+    transition: transform 200ms ease-in-out;
+}
