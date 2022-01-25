@@ -8,7 +8,7 @@ import { BsCalendar3 } from "react-icons/bs";
 import Menu from "../../src/components/Menu";
 import Search from "../../src/components/Search";
 import { DevContext } from "../../src/hooks/useDevContext";
-import styles from "./styles.module.css";
+import styles from "../../styles/devInfo.module.css";
 
 export default function DevInfo() {
   const { devInfo, repos } = useContext(DevContext);
