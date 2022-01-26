@@ -1,6 +1,6 @@
 import Head from "next/head";
-import DevContextProvider from "../src/hooks/useDevContext";
-import '../styles/globals.css'
+import DevContextProvider from "../hooks/useDevContext";
+import '../../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (

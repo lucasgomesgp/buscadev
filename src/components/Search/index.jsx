@@ -3,6 +3,8 @@ import { useContext, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { DevContext } from "../../../src/hooks/useDevContext";
 import Texts  from "../Texts";
+import { format } from "date-fns";
+import { ptBR } from "date-fns/locale";
 import styles from "./styles.module.css";
 
 export default function Search() {

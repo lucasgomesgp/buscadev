@@ -1,5 +1,5 @@
-import Search from "../src/components/Search";
-import styles from "../styles/Home.module.css";
+import Search from "../components/Search";
+import styles from "../../styles/Home.module.css";
 
 export default function Home() {
   return (
